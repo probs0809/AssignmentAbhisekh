@@ -54,4 +54,9 @@ public class MainActivity extends AppCompatActivity {
         Intent i = new Intent(ACTION_DIAL);
         startActivity(i);
     }
+
+    public void show_list(View view) {
+        Intent i1=new Intent(this,list.class);
+        startActivity(i1);
+    }
 }
