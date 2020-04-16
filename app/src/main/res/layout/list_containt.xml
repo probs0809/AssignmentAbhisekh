@@ -2,7 +2,8 @@
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:orientation="horizontal"
     android:layout_width="match_parent"
-    android:layout_height="match_parent">
+    android:layout_height="match_parent"
+    android:padding="10dp">
 
     <ImageView
         android:layout_width="100dp"
@@ -10,6 +11,7 @@
         android:layout_weight="2"
         android:src="@drawable/img1"
         android:id="@+id/im1"
+        android:layout_marginEnd="10dp"
         />
 
     <LinearLayout
@@ -20,25 +22,25 @@
 
 
         <TextView
-            android:id="@+id/tvname"
+            android:id="@+id/name"
             android:layout_width="wrap_content"
             android:layout_height="30dp"
             android:text="Name:"
             android:textSize="18sp" />
 
         <TextView
-            android:id="@+id/tvrollno"
+            android:id="@+id/empid"
             android:layout_width="wrap_content"
             android:layout_height="30dp"
-            android:text="RollNo:"
+            android:text="empid: "
             android:textSize="18sp" />
 
         <TextView
-            android:id="@+id/tvmarks"
+            android:id="@+id/designation"
             android:layout_width="wrap_content"
             android:layout_height="30dp"
             android:layout_gravity=""
-            android:text="Marks:"
+            android:text="Designation: "
             android:textSize="18sp" />
 
 
